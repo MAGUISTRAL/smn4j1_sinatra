@@ -1,13 +1,27 @@
-Voici notre nouveau projet dont vous trouverez un descriptif dans ce fichier.
-Author : Cédrid RENAUD.
+Gem Sinatra - Suivi des potins - bdd csv + html + methode mcv
 
-Dans les grandes lignes, voici les fonctionnalités principales de notre application web :
 
-    La page d'accueil du site affichera tous les potins que nous avons en base.
-    Cette page d'accueil donnera un lien pour un formulaire où quiconque pourra ajouter un potin en base.
-    Chaque potin aura une page dédiée.
+FONCTIONNALITES PRINCIPALES ET AVANCEMENT :
 
-ce programme permettra d'appréhender le notions suivantes :
+  - Objectif visé :
+    - La page d'accueil du site affichera tous les potins que nous avons en base.
+    - Cette page d'accueil donnera un lien pour un formulaire où quiconque pourra ajouter un potin en base.
+    - Chaque potin aura une page dédiée.
+
+  - Réalisé :
+    - un executable qui lance un site internet.
+    - ce site internet communique dynamiquement entre un utilisateur et une   base de données.
+    - une page d'accueil html affiche la liste des potins de la base de données
+    - une page secondaire permet de rajouter un potin dans la base de données
+
+  - A faire :
+    - une page html dédié qui affiche un potin sélectionné.
+    - un formulaire qui permet à l'utilisateur de sélectionner son potin
+
+
+
+NOTIONS APPREHENDEES :
+
     -    Utiliser un serveur ;
     -    Lancer une application en Sinatra, et bien ranger le code en MVC ;
     -    Définir des routes et endpoints dans ton application ;
