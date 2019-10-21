@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Mon super site de gossip, depuis le dossier views !</h1>
+  <body>  
+          <% gossips.each do |gossip| %>  <!-- En fait, < % %> te sert à exécuter du Ruby au sein d'un fichier HTML. Par exemple pour faire un each do. -->
+          <p>
+            <%= gossip.author %><br/>  <!-- afficher les champs de la table gossip un par un-->
+            <%= gossip.content %>
+          </p>
+        <% end %></body>
+</html>
